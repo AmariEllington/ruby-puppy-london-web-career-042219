@@ -13,6 +13,6 @@ def self.all
 end
 
 def clear_all
-  self.all.clear
+  @@all.clear
 end
 end
