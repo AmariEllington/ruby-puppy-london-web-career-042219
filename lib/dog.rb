@@ -16,9 +16,9 @@ def self.clear_all
 end
 
 def self.all
-    @@all.each do |dog|
-      dog.name
-    end
-end
+   @@all.each do |dog|
+     puts dog.name
+   end
+ end
 
 end
